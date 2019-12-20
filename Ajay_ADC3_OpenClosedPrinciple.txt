@@ -1,0 +1,13 @@
+The Open-Closed Principle (OCP) states that software entities (classes, modules, methods, etc.)
+should be open for extension, but closed for modification.
+
+In practice, this means creating software entities whose behavior can be changed without the need
+to edit and recompile the code itself. The simplest way to demonstrate this principle is to consider
+a method that does one thing. Let’s say it writes to a particular file, the name of which is hard-coded 
+into the method. If the requirements change, and the filename now needs to be different in certain situations, 
+we must open up the method to change the filename. If, on the other hand, the filename had been passed in as a parameter, 
+we would be able to modify the behavior of this method without changing its source, keeping it closed to modification.
+
+The Open-Closed Principle can also be achieved in many other ways, including through the use of inheritance or through
+compositional design patterns like the Strategy pattern.
+© 2019 GitHub, Inc.
