@@ -1,0 +1,8 @@
+Git Merge ===>
+-->Merging is a common practice for developers using version control systems. Whether branches are created for testing, bug fixes, or other reasons, merging commits changes to another location. To be more specific, merging takes the contents of a source branch and integrates them with a target branch.
+
+Git Confilt ===>
+-->can handle most merges on its own with automatic merging features. A conflict arises when two separate branches have made edits to the same line in a file, or when a file has been deleted in one branch but edited in the other. Conflicts will most likely happen when working in a team environment.
+
+Git Commit ==>
+-->The git commit command will save all staged changes, along with a brief description from the user, in a “commit” to the local repository. Commits are at the heart of Git usage. You can think of a commit as a snapshot of your project, where a new version of that project is created in the current repository.
