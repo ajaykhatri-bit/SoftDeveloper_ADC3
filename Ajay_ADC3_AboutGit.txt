@@ -1,0 +1,35 @@
+git push:
+The "push" command is used to publish new local commits on a remote server.
+The source (i.e. which branch the data should be uploaded from) is always the
+currently checked out HEAD branch.
+The target (i.e. which branch the data should be uploaded to) can be specified
+in the command's options. These options can be omitted, however, if a tracking 
+relationship with a remote branch is set up.
+Note that the "push" command can also be used to delete a remote branch.
+
+git clone:
+The git clone command copies an existing Git repository. This is sort of like SVN 
+checkout, except the “working copy” is a full-fledged Git repository—it has its own 
+history, manages its own files, and is a completely isolated environment from the 
+original repository.
+
+git pull:
+The git pull command is used to fetch and download content from a remote repository 
+and immediately update the local repository to match that content. ... The git pull 
+command is actually a combination of two other commands, git fetch followed by git 
+merge.
+
+merge conflit:
+Merge conflicts happen when you merge branches that have competing commits, and Git 
+needs your help to decide which changes to incorporate in the final merge.
+Git can often resolve differences between branches and merge them automatically. Usually, 
+the changes are on different lines, or even in different files, which makes the merge simple 
+for computers to understand. However, sometimes there are competing changes that Git can't resolve 
+without your help. Often, merge conflicts happen when people make different changes to the same line 
+of the same file, or when one person edits a file and another person deletes the same file.
+
+You must resolve all merge conflicts before you can merge a pull request on 
+GitHub. If you have a merge conflict between the compare branch and base 
+branch in your pull request, you can view a list of the files with conflicting 
+changes above the Merge pull request button. The Merge pull request button is 
+deactivated until you've resolved all conflicts between the compare branch and base branch.
